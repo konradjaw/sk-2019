@@ -17,17 +17,17 @@ Konfiguracja połączenia sieciowego
 | Parametr | wartość           | komentarzu |
 | ------------- |:-------------:| -----:|
 | Adres IP      | 192.168.0.158 | przydzielony przez DHCP |
-| Maska podsieci  255|255|255|0
-| Brama     192|168|0|1
-| DNS 1      8|8|8|8
-| DNS 2      1|0|0|1
+| Maska podsieci  255.255.255.0
+| Brama     192.168.0.1
+| DNS 1      8.8.8.8
+| DNS 2      1.0.0.1
 -maszyna wirtualna
 
 | Parametr | wartość           | komentarzu |
 | ------------- |:-------------:| -----:|
 | Adres IP      | 10.0.2.15 | przydzielony przez DHCP |
-| Maska podsieci  255|255|255|0
-| Brama     10|0|2|1
+| Maska podsieci  255.255.255.0
+| Brama     10.0.2.1
 Schemat sieci
 -------------
 
