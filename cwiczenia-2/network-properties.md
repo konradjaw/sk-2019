@@ -15,8 +15,8 @@ Wejściowe parametry sieci
 | IP - address  |10.0.2.15|maszyna 1 |
 | MASKA  |255.255.255.0| |
 |   |  | |
-| PC 2  |10.0.2.4|maszyna 2 |
-| IP - address  |10.0.
+| PC 2  ||maszyna 2 |
+| IP - address  |10.0.2.4
 | MASKA  |255.255.255.0| |
 
 Weryfikacja połączenia
