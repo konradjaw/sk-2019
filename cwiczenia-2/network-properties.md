@@ -41,9 +41,10 @@ Wejściowe parametry sieci
 | MASKA  | 255.255.0.0 | |
 
 Weryfikacja połączenia
-
+brak siec nie osiagalna 
 Polecenie
-```
+``
+ping 172.16.100.100 / 192.168.10.10
 ```
 
 Efekt
@@ -56,12 +57,12 @@ Nowa statyczna konfiguracja
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
 |   PC 1 |  
-| IP - address  |  | |
-| MASKA  |  | |
+| IP - address  |10.0.2.10| |
+| MASKA  |255.255.255.0  | |
 |   |  | |
 | PC 2  |  | |
-| IP - address  |  | |
-| MASKA  |  | |
+| IP - address  |10.0.2.100 | |
+| MASKA  |255.255.255.0   | |
 
 Weryfikacja połączenia
 
@@ -79,10 +80,10 @@ Warto wiedzieć
 -------------------------
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
-| Lokalizacja pliku z konfiguracją sieci| | |
-| UP -> Wyłączenie interfejsu sieciowego| | |
-| DOWN -> Włączenie interfejsu sieciowego| | |
-| Sprawdzenie obecnych parametrów | | |
-| lista wszystkich interfejsów | | |
+| Lokalizacja pliku z konfiguracją sieci|/etc/network/interfaces| |
+| UP -> Wyłączenie interfejsu sieciowego|ifup | |
+| DOWN -> Włączenie interfejsu sieciowego|ifdown | |
+| Sprawdzenie obecnych parametrów |ifconfig | |
+| lista wszystkich interfejsów |ip a | |
 | Które interfejsy jakie porty słuchają | | |
 
