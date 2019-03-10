@@ -12,21 +12,21 @@ Wejściowe parametry sieci
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
 |   PC 1 |  
-| IP - address  | | |
-| MASKA  | | |
+| IP - address  |10.0.2.15|maszyna 1 |
+| MASKA  |255.255.255.0| |
 |   |  | |
-| PC 2  |  | |
-| IP - address  | | |
-| MASKA  | | |
+| PC 2  |10.0.2.4|maszyna 2 |
+| IP - address  |10.0.
+| MASKA  |255.255.255.0| |
 
 Weryfikacja połączenia
 
 Polecenie
-```
+```ping 10.0.2.15/ping 10.0.2.4
 ```
 
 Efekt
-```
+```0% loss
 ```
 
 Statyczna konfiguracja parametrów połączenia
