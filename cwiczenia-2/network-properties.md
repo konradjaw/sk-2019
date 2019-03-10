@@ -66,6 +66,7 @@ Nowa statyczna konfiguracja
 
 Weryfikacja połączenia
 polaczenie dzala
+wlan nie dzala
 
 Polecenie
 ```
