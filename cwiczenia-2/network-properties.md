@@ -57,14 +57,15 @@ Nowa statyczna konfiguracja
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
 |   PC 1 |  
-| IP - address  |10.0.2.10| |
+| IP - address  |192.168.10.10| |
 | MASKA  |255.255.255.0  | |
 |   |  | |
 | PC 2  |  | |
-| IP - address  |10.0.2.100 | |
+| IP - address  |192.168.10.100| |
 | MASKA  |255.255.255.0   | |
 
 Weryfikacja połączenia
+polaczenie dzala
 
 Polecenie
 ```
