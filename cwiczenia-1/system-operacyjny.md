@@ -13,6 +13,7 @@ Charakterystyka systemu operacyjnego
 Konfiguracja połączenia sieciowego
 ----------------------------------
 -maszyna rzeczywista
+
 | Parametr | wartość           | komentarzu |
 | ------------- |:-------------:| -----:|
 | Adres IP      | 192.168.0.158 | przydzielony przez DHCP |
@@ -21,6 +22,7 @@ Konfiguracja połączenia sieciowego
 | DNS 1      8|8|8|8
 | DNS 2      1|0|0|1
 -maszyna wirtualna
+
 | Parametr | wartość           | komentarzu |
 | ------------- |:-------------:| -----:|
 | Adres IP      | 10.0.2.15 | przydzielony przez DHCP |
