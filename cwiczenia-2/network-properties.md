@@ -23,9 +23,9 @@ Weryfikacja połączenia
 
 Polecenie
 ping 10.0.2.15/ping 10.0.2.4
-Efekt
+10.0.2.4
 0% loss
-```
+
 
 Statyczna konfiguracja parametrów połączenia
 Wejściowe parametry sieci
