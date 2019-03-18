@@ -28,11 +28,11 @@ ip
 |   ``addr``    |                               | infirmacje o adresacji i własnościach interfejsów |
 |               |   ``ip addr``                 | informacja o wszystkich interfejsach              |
 |               |   ``ip addr show dev enp0s3`` | informacja o konkretnym interfejsie               |
-|   ``link``    |                               |  |
-|   ``route``   |  | |
+|   ``link``    |                               | do wlaczania i wylaczania urzadzenia |
+|   ``route``   |  | ustawia tablice routigu |
 |   ``maddr``   |  | |
-|   ``neigh``   |  | |
-|   ``help``    |  | |
+|   ``neigh``   |  |zarzadzanie tablica neihbour |
+|   ``help``    |  | pomoc|
 
 Zadanie
 ------------
